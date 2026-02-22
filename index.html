@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignesh · Designer & creative</title>
+    <!-- Font Awesome 5 (free) for icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <!-- External CSS file (style.css) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CUSTOMIZED NAVIGATION BAR (glassmorphism + micro-interactions) -->
+    <header>
+        <h2 class="logo"><span>V</span>ickey.</h2>
+        <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+        <div class="nav-menu" id="navMenu">
+            <nav class="navigation">
+                <a href="#home"><i class="fas fa-home"></i> Home</a>
+                <a href="#resume"><i class="fas fa-file-alt"></i> Resume</a>
+                <a href="#portfolio"><i class="fas fa-paint-brush"></i> Portfolio</a>
+                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+            </nav>
+            <a href="#contact" class="btn-talk">Let's Talk</a>
+        </div>
+    </header>
+
+    <!-- HOME / LANDING with BIG PROFILE PHOTO -->
+    <section class="home" id="home">
+        <div class="content">
+            <h2>Hi, I'm <span>Vignesh</span></h2>
+            <h4>Graphic Designer</h4>
+            <p>A passionate designer who transforms ideas into stunning digital experiences through creative design and user-centered thinking.</p>
+            <div class="btn-group">
+                <a href="#portfolio">See Projects</a>
+                <a href="#resume">Resume</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/vignesh-v-252003" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.behance.net/gallery/232182705/Portfolio-Website" aria-label="Behance"><i class="fab fa-behance"></i></a>
+            </div>
+        </div>
+         <div class="profile-image">
+            <img src="profile/176667594225811.png" alt="Vignesh profile" width="500px" height="500px">
+        </div>
+    </section>
+
+    <!-- RESUME SECTION (based on Resume.pdf) -->
+    <section class="section" id="resume">
+        <h2 class="section-title"><span>Resume</span> & Background</h2>
+        <div class="resume-grid">
+            <div class="resume-left">
+                <h3><i class="fas fa-book-open"></i> Professional Summary</h3>
+                <p style="margin-bottom: 30px;">Creative Graphic Designer skilled in branding, content creation, and digital art. Proven freelance experience delivering high-quality design solutions. Adept at blending creative vision with technical skills in IT hardware and web technologies.</p>
+                
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="info-block">
+                    <h4>M.Sc Computer Science & Technology</h4>
+                    <div class="sub">Sri Sankara Arts & Science College (Madras University)</div>
+                    <div class="date">2020 – 2025 | CGPA: 7.2</div>
+                </div>
+
+                <h3><i class="fas fa-laptop-code"></i> Academic Project</h3>
+                <div class="info-block">
+                    <h4>Job Seeker to Career Advisor Chatbot with AI</h4>
+                    <div class="date">2025 · Python, NLP, voice interface</div>
+                    <p>Built an AI-powered chatbot using Python, NLP, and ML for personalized career guidance. Integrated voice interaction and web interface.</p>
+                </div>
+
+                <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <ul style="margin-left: 20px; line-height: 2;">
+                    <li>Adobe Photoshop, Illustrator – Mind Luster (2020)</li>
+                    <li>Java Programming (2023)</li>
+                    <li>Advanced C++ Programming (2023)</li>
+                </ul>
+            </div>
+
+            <div class="resume-right">
+                <h3><i class="fas fa-industry"></i> Experience</h3>
+                <div class="info-block">
+                    <h4>Freelance Graphic Designer</h4>
+                    <div class="sub">Self-Employed · 2020 – 2023</div>
+                    <p>Branding packages, logos, business cards, posters, wedding albums, photo illustrations.</p>
+                    <p>Clients across events, small biz. Created personalized invitations and wedding albums.</p>
+                </div>
+
+                <h3><i class="fas fa-tools"></i> Technical Skills</h3>
+                <h4>Design & Prototyping:</h4>
+                <div class="skill-tags"><span>Photoshop</span><span>Illustrator</span><span>Lightroom</span><span>InDesign</span><span>Figma</span><span>Canva</span></div>
+                <h4>Web Technologies:</h4>
+                    <div class="skill-tags"><span>HTML/CSS</span><span>JavaScript</span></div>
+                <h4>Programming Languages:</h4>
+                    <div class="skill-tags"><span>Java</span><span>C++</span><span>SQL</span></div>
+                <h4>General:</h4>
+                    <div class="skill-tags"><span>MS Office</span></div>
+
+                <h3><i class="fas fa-smile"></i> Soft Skills</h3>
+                <h4>Languages:</h4>
+                <ul style="margin-left: 50px; line-height: 2;">
+                    <li>Tamil (Native)</li>
+                    <li>English (Professional)</li>
+                </ul><br>
+                <h4>Qualities:</h4>
+                <ul style="margin-left: 50px; line-height: 2;">
+                    <li>Leadership</li>
+                    <li>Collaboration</li>
+                    <li>Creative Thinking</li>
+                </ul>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION (branding samples with modal preview) -->
+    <section class="section" id="portfolio">
+        <h2 class="section-title"><span>Portfolio</span> Samples</h2>
+        <p style="margin-bottom: 40px; font-size: 1.2rem;">Click on any card to see detailed preview — logos, wedding albums, business cards, and digital art.</p>
+        <div class="portfolio-grid">
+            <!-- Card 1 - Brand Identity -->
+            <div class="portfolio-item">
+                <a href="#modal-brand1" style="text-decoration: none; color: inherit;">
+                <div class="portfolio-img"><i class="fas fa-bolt"></i></div>
+                <div class="portfolio-info">
+                    <h3>Brand Identity</h3>
+                    <p>Modern wordmarks, complete identity systems, and brand guidelines for growing businesses.</p>
+                    <span class="btn-outline">view samples<i class="fas fa-arrow-right"></i></span>
+                </div>
+                </a>
+            </div>
+            <!-- Card 2 - Social Media Posters -->
+            <div class="portfolio-item">
+                <a href="#modal-brand2" style="text-decoration: none; color: inherit;">
+                <div class="portfolio-img"><i class="fas fa-hashtag"></i></div>
+                <div class="portfolio-info">
+                    <h3>Social Media Posters</h3>
+                    <p>Scroll-stopping promotional creatives designed for engagement and reach.</p>
+                    <span class="btn-outline">view samples<i class="fas fa-arrow-right"></i></span>
+                </div>
+                </a>
+            </div>
+            <!-- Card 3 - Flyers & Banners -->
+            <div class="portfolio-item">
+                <a href="#modal-brand3" style="text-decoration: none; color: inherit;">
+                <div class="portfolio-img"><i class="fas fa-bullseye"></i></div>
+                <div class="portfolio-info">
+                    <h3>Flyers & Banners</h3>
+                    <p>High-impact layouts for promotions, launches, and events.</p>
+                    <span class="btn-outline">view samples<i class="fas fa-arrow-right"></i></span>
+                </div>
+                </a>
+            </div>
+            <!-- Card 4 - Invitation & Biz Cards -->
+            <div class="portfolio-item">
+                <a href="#modal-brand4" style="text-decoration: none; color: inherit;">
+                <div class="portfolio-img"><i class="fas fa-id-card"></i></div>
+                <div class="portfolio-info">
+                    <h3>Invitation & Biz Cards</h3>
+                    <p>Personal inivitation, event cards and corporate identities in print.</p>
+                    <span class="btn-outline">view samples<i class="fas fa-arrow-right"></i></span>
+                </div>
+                </a>
+            </div>
+            <!-- Card 5 - Digital art -->
+            <div class="portfolio-item">
+                <a href="#modal-brand5" style="text-decoration: none; color: inherit;">
+                <div class="portfolio-img"><i class="fas fa-paint-brush"></i></div>
+                <div class="portfolio-info">
+                    <h3>Digital Art</h3>
+                    <p>Personalized photo albums, illustrations, character art, and concept-driven visuals with emotional depth..</p>
+                    <span class="btn-outline">view samples<i class="fas fa-arrow-right"></i></span>
+                </div>
+                </a>
+            </div>
+            <!-- Card 6 - UI/UX Design -->
+            <div class="portfolio-item">
+                <a href="#modal-brand6" style="text-decoration: none; color: inherit;">
+                <div class="portfolio-img"><i class="fa fa-code"></i></div>
+                <div class="portfolio-info">
+                    <h3>UI/UX Design</h3>
+                    <p>Clean interfaces built for usability and seamless user experience.</p>
+                    <span class="btn-outline">view samples<i class="fas fa-arrow-right"></i></span>
+                </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section" id="contact" style="border-bottom: none;">
+        <h2 class="section-title">Let’s <span>Talk</span></h2>
+        <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: center;">
+            <div style="flex: 1 1 300px;">
+                <p style="font-size: 1.3rem; margin-bottom: 20px;"><i class="fas fa-envelope"></i> balasiva0203@gmail.com<br><i class="fas fa-phone-alt"></i> 9952130187 / 6381504891</p>
+                <p>Kanchipuram — available for freelance projects, collaborations, or just a creative chat.</p>
+                <div class="social-icons" style="margin-top: 20px;">
+                    <a href="https://www.behance.net/gallery/232182705/Portfolio-Website"><i class="fab fa-behance"></i></a>
+                    <a href="https://www.linkedin.com/in/vignesh-v-252003"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com/its_vkey"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/919952130187"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div style="flex: 2 1 300px;">
+                <a href="https://mail.google.com/mail/balasiva0203@gmail.com" class="btn-talk" style="background: transparent; color:#7d2ae8;">Email me</a>
+                <a href="#" class="btn-talk" style="background: transparent; color:#7d2ae8;">Download resume (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="small mb-0" style="color: #bbb; font-size: smaller;">
+            © 2025 All rights reserved & Created <i class="fas fa-heart" style="color:#ff0000;"></i> by <span style="color:#c7adff;">Vignesh — Graphic Designer.</span></p>
+    </footer>
+
+    <!-- MODALS / lightbox for branding samples (images + details) -->
+    <!-- Modal 1 - Brand Identity -->
+    <div class="modal" id="modal-brand1">
+        <div class="modal-content">
+            <a href="#modal-brand" class="close-btn">&times;</a>
+            <h2 style="color:#4a27a3; font-size: 25pt;">Logo & Identity</h2><br>
+            <p><strong>Details:</strong> Custom logo systems created for cafés, tech startups, retail brands, and wellness businesses. Includes logo variations, color palettes, typography selection, and detailed brand style guides.</p>
+            <div class="sample-gallery">
+                <div class="sample"><img src="assets/Logo/Blue Ink.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Logo/Coffee.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Logo/CW.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Logo/DE.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Logo/Jobseeker 1.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Logo/Mr.Focus.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Logo/VEC Logo 1c.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Logo/VEC.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Logo/Winsun Photography.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Logo/CZ.jpg" alt="Enlarged view" width="200px"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 - Social Media Posters -->
+    <div class="modal" id="modal-brand2">
+        <div class="modal-content">
+            <a href="#modal-brand" class="close-btn">&times;</a>
+            <h2 style="color:#4a27a3; font-size: 25pt;">Social Media Posters</h2><br>
+            <p><strong>Details:</strong> Campaign posters, product promotions, event announcements, and festive creatives designed for Instagram and Facebook. Focused on visual hierarchy, strong typography, and brand consistency.</p>
+            <div class="sample-gallery">
+                <div class="sample"><img src="assets/Posters/1_20250804_210849_0000.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Posters/2_20250804_210849_0001.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Posters/5_20250804_210849_0004.jpg" alt="Enlarged view" width="140px"></div>
+                <div class="sample"><img src="assets/Posters/6_20250804_210849_0005.jpg" alt="Enlarged view" width="140px"></div>
+                <div class="sample"><img src="assets/Posters/Travel 2 Dubai.jpg" alt="Enlarged view" width="218px"></div>
+                <div class="sample"><img src="assets/Posters/4_20250510_073011_0003.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Posters/5_20250510_073011_0004.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Posters/1_20250503_192008_0000.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Posters/IMG-20250909-WA0001.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Posters/IMG-20250909-WA0002.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Posters/Hello Mentor Social Media poster.jpg" alt="Enlarged view" width="212px"></div>
+                <div class="sample"><img src="assets/Posters/Hello Mentor Thumbnail (YouTube).jpg" alt="Enlarged view" width="500px"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3 - Flyers & Banners -->
+    <div class="modal" id="modal-brand3">
+        <div class="modal-content">
+            <a href="#modal-brand" class="close-btn">&times;</a>
+            <h2 style="color:#4a27a3; font-size: 25pt;">Flyers & Banners</h2><br>
+            <p><strong>Details:</strong> Print-ready and digital promotional materials designed for store openings, product launches, corporate events, and seasonal sales. Structured for clarity, readability, and strong visual balance.</p>
+            <div class="sample-gallery">
+                <div class="sample"><img src="assets/Flyers/1_20250510_073010_0000.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Flyers/2_20250510_073010_0001.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Flyers/3_20250510_073011_0002.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Flyers/7_20250510_073011_0005.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Flyers/8_20250510_105642_0000.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Flyers/9_20250510_105642_0001.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Flyers/10_20250510_105642_0002.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Flyers/Hello Mentor poster 2.jpg" alt="Enlarged view" width="222px"></div>
+                <div class="sample"><img src="assets/Flyers/3_20250503_192008_0002.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Flyers/20240609_173336_0000.jpg" alt="Enlarged view" width="200px"></div>
+                <div class="sample"><img src="assets/Flyers/Travel 2 Dubai..jpg" alt="Enlarged view" width="160px"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4 - Invitation & Biz Cards -->
+    <div class="modal" id="modal-brand4">
+        <div class="modal-content">
+            <a href="#modal-brand" class="close-btn">&times;</a>
+            <h2 style="color:#4a27a3; font-size: 25pt;">Invitation & Biz Cards</h2><br>
+            <p><strong>Details:</strong> Elegant invitation designs for weddings, corporate events, and celebrations. Professional business card layouts with premium typography, clean spacing, and brand-aligned design systems.</p>
+            <div class="sample-gallery">
+                <div class="sample"><img src="assets/Inivitations/20250507_224153_0006.png" alt="Enlarged view" width="300px"></div>
+                <div class="sample"><img src="assets/Inivitations/20250507_224153_0007.png" alt="Enlarged view" width="300px"></div>
+                <div class="sample"><img src="assets/Inivitations/20250507_224153_0004.png" alt="Enlarged view" width="300px"></div>
+                <div class="sample"><img src="assets/Inivitations/20250507_224153_0005.png" alt="Enlarged view" width="300px"></div>
+                <div class="sample"><img src="assets/Inivitations/20250507_224153_0000.png" alt="Enlarged view" width="300px"></div>
+                <div class="sample"><img src="assets/Inivitations/20250507_224153_0001.png" alt="Enlarged view" width="300px"></div>
+                <div class="sample"><img src="assets/Inivitations/VEC Logo 2.jpg" alt="Enlarged view" width="300px"></div>
+                <div class="sample"><img src="assets/Inivitations/Artboard 2@3x-100.jpg" alt="Enlarged view" width="300px"></div>
+                <div class="sample"><img src="assets/Inivitations/2_20250503_193602_0001.png" alt="Enlarged view" width="300px"></div>
+                <div class="sample"><img src="assets/Inivitations/1_20250503_193602_0000.png" alt="Enlarged view" width="300px"></div>
+                <div class="sample"><img src="assets/Inivitations/5_20250503_193425_0002.png" alt="Enlarged view" width="300px"></div>
+                <div class="sample"><img src="assets/Inivitations/4_20250503_193425_0001.png" alt="Enlarged view" width="300px"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5 - Digital art -->
+    <div class="modal" id="modal-brand5">
+        <div class="modal-content">
+            <a href="#modal-brand" class="close-btn">&times;</a>
+            <h2 style="color:#4a27a3; font-size: 25pt;">Digital Art & Illustrations</h2><br>
+            <p><strong>Details:</strong> Detailed digital artworks ranging from portrait illustrations to conceptual compositions. Focused on mood, lighting, texture, and storytelling elements.</p>
+            <div class="sample-gallery">
+                <h2>Coming Soon <div class="fas fa-angle-double-right"></div></h2>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 6 - UI/UX Design -->
+    <div class="modal" id="modal-brand6">
+        <div class="modal-content">
+            <a href="#modal-brand" class="close-btn">&times;</a>
+            <h2 style="color:#4a27a3; font-size: 25pt;">UI/UX Designs</h2><br>
+            <p><strong>Details:</strong> Website and mobile app interface designs created for startups and service-based businesses. Includes wireframes, user flows, responsive layouts, and prototype screens focused on clarity and intuitive navigation.</p>
+            <div class="sample-gallery">
+                <h2>Coming Soon <div class="fas fa-angle-double-right"></div></h2>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript for mobile menu toggle (simple) -->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('navMenu');
+            menu.classList.toggle('active');
+        }
+        // Close menu when a link is clicked (for better mobile UX)
+        document.querySelectorAll('.navigation a, .btn-talk').forEach(link => {
+            link.addEventListener('click', (e) => {
+                if (window.innerWidth <= 850) {
+                    document.getElementById('navMenu').classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
