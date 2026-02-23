@@ -549,8 +549,11 @@ footer i.ti-heart {
 @media (max-width: 1000px) {
     header {
         padding: 12px 25px;
-        width: 95%;
+        width: 85%;
     }
+
+    .home .btn-group {
+        padding-top: 10px;
 
     .home,
     .section {
