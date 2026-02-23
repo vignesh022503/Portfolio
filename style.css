@@ -163,8 +163,8 @@ header {
 
 .profile-image {
     flex: 1 1 380px;
-    max-width: 1000px;
-    max-height: 1000px;
+    max-width: 380px;
+    aspect-ratio: 1/1;
     border-radius: 30px;
     box-shadow: 0 30px 40px -20px rgba(93, 20, 190, 0.4);
     transition: transform 0.4s ease;
@@ -177,7 +177,6 @@ header {
     border: 5px outset white;
     background: #d9c9ff;
     object-fit: cover;
-    aspect-ratio: 1/1;
     box-shadow: 0 15px 35px rgba(123, 42, 232, 0.15);
 }
 
@@ -926,11 +925,10 @@ footer i.ti-heart {
     }
 
     .contact-actions .btn {
-        width: 80%;
+        width: 100%;
         max-width: 250px;
         margin: 0;
         text-align: center;
-        padding: 10px 30px;
     }
 
     .modal-content {
