@@ -603,19 +603,6 @@ footer i.ti-heart {
 }
 
 /* === RESPONSIVE DESIGN - PERFECTLY OPTIMIZED === */
-@media (max-width: 1200px) {
-    .home {
-        padding: 140px 60px 80px;
-    }
-    
-    .section {
-        padding: 90px 60px;
-    }
-    
-    footer {
-        padding: 20px 60px;
-    }
-}
 
 @media (max-width: 1000px) {
     header {
