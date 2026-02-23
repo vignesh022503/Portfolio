@@ -164,6 +164,7 @@ header {
 .profile-image {
     flex: 1 1 380px;
     max-width: 1000px;
+    max-height: 1000px;
     border-radius: 30px;
     box-shadow: 0 30px 40px -20px rgba(93, 20, 190, 0.4);
     transition: transform 0.4s ease;
