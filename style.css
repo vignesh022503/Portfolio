@@ -760,7 +760,8 @@ footer i.ti-heart {
 
     .contact-actions .btn-talk {
         width: 100%;
-        white-space: normal;
+        text-align: center;
+        padding: 10px 30px;
     }
 
     .resume-grid {
