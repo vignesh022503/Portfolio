@@ -387,10 +387,9 @@ header {
     min-width: 280px;
 }
 
-.contact-info p {
-    font-size: 1rem;
+.contact-main {
+    font-size: 1.3rem;
     margin-bottom: 20px;
-    word-wrap: break-word;
 }
 
 .contact-actions {
