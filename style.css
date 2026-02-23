@@ -387,9 +387,10 @@ header {
     min-width: 280px;
 }
 
-.contact-info .contact-main {
-    font-size: 1.3rem;
+.contact-info p {
+    font-size: 1rem;
     margin-bottom: 20px;
+    word-wrap: break-word;
 }
 
 .contact-actions {
@@ -766,7 +767,7 @@ footer i.ti-heart {
         margin-left: 0;
         margin-right: 0;
     }
-}
+    
     .content {
         text-align: center;
         margin-top: 50px;
@@ -906,7 +907,7 @@ footer i.ti-heart {
         font-size: 0.9rem;
     }
     
-    .contact-info.contact-main {
+    .contact-info p {
         font-size: 1rem;
         word-break: break-word
     }
