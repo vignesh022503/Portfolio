@@ -172,7 +172,6 @@ header {
 
 .profile-image img {
     width: 100%;
-    height: auto;
     aspect-ratio: 1/1;
     border-radius: 30px;
     border: 5px outset white;
@@ -915,12 +914,15 @@ footer i.ti-heart {
     }
 
     .contact-actions {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .contact-actions .btn {
+        width: 100%;
+        max-width: 250px
+        margin: 0;
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
