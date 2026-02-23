@@ -178,7 +178,6 @@ header {
     object-fit: cover;
     aspect-ratio: 1/1;
     box-shadow: 0 15px 35px rgba(123, 42, 232, 0.15);
-    max-width: 100%;
 }
 
 .profile-image:hover {
@@ -188,7 +187,7 @@ header {
 .content {
     margin-top: 100px;
     flex: 2 1 400px;
-    max-width: 1000px;
+    max-width: 600px;
     color: #555;
 }
 
@@ -521,6 +520,10 @@ header {
     overflow: auto;
     scrollbar-width: thin;
     scroll-behavior: smooth;
+}
+
+.modal-content {
+    position: sticky;
 }
 
 .close-btn {
