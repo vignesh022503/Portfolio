@@ -775,6 +775,10 @@ footer i.ti-heart {
     .contact-actions {
         justify-content: center;
     }
+
+    .contact-actions .btn-talk {
+        justify-content: center;
+    }
     
     .contact-info .social-icons {
         justify-content: center;
@@ -897,7 +901,7 @@ footer i.ti-heart {
     .contact-actions .btn-talk {
         width: 80%;
         text-align: center;
-        padding: 10px 40px;
+        padding: 25px 40px;
     }
     
     .modal-content {
