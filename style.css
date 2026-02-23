@@ -617,10 +617,10 @@ footer i.ti-heart {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 850px) {
     .header {
         padding: 12px 25px;
-        width: 100%;
+        width: 75%;
     }
 
     .home,
