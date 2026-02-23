@@ -926,9 +926,11 @@ footer i.ti-heart {
     }
 
     .contact-actions .btn {
-        width: 100%;
+        width: 80%;
         max-width: 250px;
         margin: 0;
+        text-align: center;
+        padding: 10px 30px;
     }
 
     .modal-content {
