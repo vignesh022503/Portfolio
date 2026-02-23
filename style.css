@@ -387,7 +387,7 @@ header {
     min-width: 280px;
 }
 
-.contact-main {
+.contact-info .contact-main {
     font-size: 1.3rem;
     margin-bottom: 20px;
 }
@@ -906,7 +906,7 @@ footer i.ti-heart {
         font-size: 0.9rem;
     }
     
-    .contact-main {
+    .contact-info.contact-main {
         font-size: 1rem;
         word-break: break-word
     }
@@ -980,10 +980,6 @@ footer i.ti-heart {
     .skill-tags span {
         padding: 5px 12px;
         font-size: 0.8rem;
-    }
-
-    .contact-main {
-        font-size: 0.9rem;
     }
     
     .sample-gallery .sample img {
