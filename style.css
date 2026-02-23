@@ -917,9 +917,14 @@ footer i.ti-heart {
     }
     
     .contact-actions .btn {
-        width: 80%;
-        text-align: center;
-        padding: 10px 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        width: 100%;
+        max-width: 200px;
+        margin-left: 0 !important;
+        padding: 10px !important;
     }
     
     .modal-content {
