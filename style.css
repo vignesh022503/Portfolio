@@ -545,15 +545,26 @@ footer i.ti-heart {
     color: #ff0000;
 }
 
-/* === RESPONSIVE DESIGN === */
+/* === RESPONSIVE DESIGN - PERFECTLY OPTIMIZED === */
+@media (max-width: 1200px) {
+    .home {
+        padding: 140px 60px 80px;
+    }
+    
+    .section {
+        padding: 90px 60px;
+    }
+    
+    footer {
+        padding: 20px 60px;
+    }
+}
+
 @media (max-width: 1000px) {
     header {
         padding: 12px 25px;
-        width: 75%;
+        width: 95%;
     }
-
-    .home .btn-group {
-        padding-top: 10px;
 
     .home,
     .section {
@@ -562,6 +573,18 @@ footer i.ti-heart {
 
     .resume-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .content h2 {
+        font-size: 2.5em;
+    }
+    
+    .content h4 {
+        font-size: 1.6em;
+    }
+    
+    footer {
+        padding: 20px 40px;
     }
 }
 
@@ -601,13 +624,13 @@ footer i.ti-heart {
         text-align: center;
         padding: 15px;
         border-radius: 50px;
+        white-space: normal;
     }
 
     .btn-talk {
         margin: 15px 0 5px;
         width: fit-content;
         padding: 12px 45px;
-        padding-top: 10px;
     }
 
     header {
@@ -615,22 +638,271 @@ footer i.ti-heart {
     }
 }
 
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2.2rem;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 25px;
+    }
+    
+    .resume-grid {
+        padding: 25px;
+    }
+    
+    .resume-left h3,
+    .resume-right h3 {
+        font-size: 1.5rem;
+    }
+    
+    .info-block h4 {
+        font-size: 1.2rem;
+    }
+    
+    .skill-tags span {
+        padding: 6px 15px;
+        font-size: 0.85rem;
+    }
+}
+
 @media (max-width: 700px) {
     .home {
         flex-direction: column;
         text-align: center;
+        gap: 30px;
+        padding: 120px 25px 60px;
     }
 
     .profile-image {
-        max-width: 300px;
+        max-width: 280px;
+        margin: 0 auto;
     }
 
     .btn-group a:nth-child(2) {
-        margin-top: 15px;
+        margin-left: 15px;
     }
 
     .section-title {
-        font-size: 2.3rem;
+        font-size: 2rem;
+    }
+    
+    .section-title:after {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .content {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .social-icons a {
+        margin: 5px 10px;
+    }
+    
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .contact-actions {
+        justify-content: center;
+    }
+    
+    .contact-info .social-icons {
+        justify-content: center;
+    }
+    
+    .modal-content {
+        padding: 20px 15px 30px;
+    }
+    
+    .modal-content h2 {
+        font-size: 20pt !important;
+    }
+    
+    .sample-gallery {
+        gap: 10px;
+    }
+    
+    .sample-gallery .sample img {
+        width: 150px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .home {
+        padding: 100px 20px 50px;
+    }
+    
+    .section {
+        padding: 60px 20px;
+    }
+    
+    footer {
+        padding: 20px;
+    }
+    
+    .profile-image {
+        max-width: 240px;
+    }
+    
+    .content h2 {
+        font-size: 2em;
+    }
+    
+    .content h4 {
+        font-size: 1.3em;
+    }
+    
+    .content p {
+        font-size: 0.95rem;
+        padding: 10px 0 20px;
+    }
+    
+    .btn-group a {
+        padding: 8px 25px;
+        font-size: 0.9rem;
+    }
+    
+    .btn-group a:nth-child(2) {
+        padding: 8px 20px;
+        margin-left: 10px;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .resume-grid {
+        padding: 20px;
+        border-radius: 24px;
+    }
+    
+    .resume-left h3,
+    .resume-right h3 {
+        font-size: 1.3rem;
+    }
+    
+    .info-block h4 {
+        font-size: 1.1rem;
+    }
+    
+    .info-block .sub {
+        font-size: 0.95rem;
+    }
+    
+    .info-block .date {
+        font-size: 0.8rem;
+    }
+    
+    .info-block p,
+    .info-block li {
+        font-size: 0.9rem;
+    }
+    
+    ul {
+        margin-left: 15px !important;
+    }
+    
+    ul li {
+        font-size: 0.9rem;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .portfolio-info h3 {
+        font-size: 1.4rem;
+    }
+    
+    .btn-outline {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .contact-info p {
+        font-size: 1.1rem;
+    }
+    
+    .contact-actions .btn-talk {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+    
+    .modal-content {
+        border-radius: 30px;
+        padding: 15px 12px 25px;
+    }
+    
+    .close-btn {
+        top: 15px;
+        right: 20px;
+        font-size: 1.8rem;
+    }
+    
+    .sample-gallery .sample img {
+        width: 120px !important;
+    }
+    
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .content h2 {
+        font-size: 1.7em;
+    }
+    
+    .content h4 {
+        font-size: 1.1em;
+    }
+    
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .btn-group a {
+        width: 100%;
+        max-width: 200px;
+        margin-left: 0 !important;
+        padding: 10px !important;
+    }
+    
+    .profile-image {
+        max-width: 200px;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .skill-tags {
+        gap: 8px;
+    }
+    
+    .skill-tags span {
+        padding: 5px 12px;
+        font-size: 0.8rem;
+    }
+    
+    .sample-gallery .sample img {
+        width: 100px !important;
     }
 }
 
@@ -638,3 +910,9 @@ footer i.ti-heart {
 .show-menu {
     display: flex !important;
 }
+
+/* Fix for modal on very small screens */
+@media (max-width: 320px) {
+    .modal-content {
+        width: 98%;
+        padding: 10px;
