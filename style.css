@@ -162,8 +162,8 @@ header {
 }
 
 .profile-image {
-    flex: 1 1 380px;
-    max-width: 380px;
+    flex: 1 1 500px;
+    max-width: 500px;
     aspect-ratio: 1/1;
     border-radius: 30px;
     box-shadow: 0 30px 40px -20px rgba(93, 20, 190, 0.4);
@@ -754,8 +754,7 @@ footer i.ti-heart {
 
     .profile-image {
         max-width: 300px;
-        max-height: 300px;
-        margin: 0;
+        aspect-ratio: 1/1;
     }
 
     .btn-group a:nth-child(2) {
@@ -836,6 +835,7 @@ footer i.ti-heart {
     
     .profile-image {
         max-width: 240px;
+        aspect-ratio: 1/1;
     }
     
     .content h2 {
@@ -928,7 +928,6 @@ footer i.ti-heart {
         width: 100%;
         max-width: 250px;
         margin: 0;
-        text-align: center;
     }
 
     .modal-content {
@@ -976,6 +975,7 @@ footer i.ti-heart {
     
     .profile-image {
         max-width: 200px;
+        aspect-ratio: 1/1;
     }
     
     .section-title {
