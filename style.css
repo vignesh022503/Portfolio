@@ -546,7 +546,7 @@ footer i.ti-heart {
 }
 
 /* === RESPONSIVE DESIGN === */
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
     header {
         padding: 12px 25px;
         width: 75%;
@@ -607,6 +607,7 @@ footer i.ti-heart {
         margin: 15px 0 5px;
         width: fit-content;
         padding: 12px 45px;
+        padding-top: 10px;
     }
 
     header {
@@ -614,7 +615,7 @@ footer i.ti-heart {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     .home {
         flex-direction: column;
         text-align: center;
