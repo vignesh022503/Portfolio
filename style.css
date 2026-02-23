@@ -919,6 +919,12 @@ footer i.ti-heart {
         word-break: break-word
     }
 
+    .contact-container {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
     .contact-actions {
         flex-direction: column;
         align-items: center;
