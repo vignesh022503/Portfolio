@@ -620,7 +620,7 @@ footer i.ti-heart {
 @media (max-width: 1000px) {
     header {
         padding: 12px 25px;
-        width: 85%;
+        width: 95%;
     }
 
     .home,
@@ -647,7 +647,7 @@ footer i.ti-heart {
 
 @media (max-width: 850px) {
     .menu-toggle {
-        display: inline-block;
+        display: flex;
     }
 
     .nav-menu {
@@ -697,7 +697,7 @@ footer i.ti-heart {
 
 @media (max-width: 768px) {
     .section-title {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     
     .portfolio-grid {
@@ -733,7 +733,7 @@ footer i.ti-heart {
     }
 
     .profile-image {
-        max-width: 300px;
+        max-width: 280px;
         margin: 0;
     }
 
@@ -893,9 +893,9 @@ footer i.ti-heart {
     }
     
     .contact-actions .btn-talk {
-        width: 100%;
+        width: 80%;
         text-align: center;
-        padding: 10px 30px;
+        padding: 10px 40px;
     }
     
     .modal-content {
