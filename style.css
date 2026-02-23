@@ -162,8 +162,8 @@ header {
 }
 
 .profile-image {
-    flex: 1 1 400px;
-    max-width: 400px;
+    flex: 1 1 420px;
+    max-width: 420px;
     aspect-ratio: 1/1;
     border-radius: 30px;
     box-shadow: 0 30px 40px -20px rgba(93, 20, 190, 0.4);
@@ -831,6 +831,11 @@ footer i.ti-heart {
     footer {
         padding: 20px;
     }
+
+    .profile-image {
+        max-width: 240px;
+        aspect-ratio: 1/1;
+    }
     
     .content h2 {
         font-size: 2em;
@@ -914,6 +919,7 @@ footer i.ti-heart {
     }
 
     .contact-actions {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -922,9 +928,6 @@ footer i.ti-heart {
         width: 100%;
         max-width: 250px
         margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .modal-content {
@@ -970,6 +973,11 @@ footer i.ti-heart {
         padding: 10px !important;
     }
     
+    .profile-image {
+        max-width: 200px;
+        aspect-ratio: 1/1;
+    }
+
     .section-title {
         font-size: 1.5rem;
     }
