@@ -603,7 +603,6 @@ footer i.ti-heart {
 }
 
 /* === RESPONSIVE DESIGN - PERFECTLY OPTIMIZED === */
-/* === RESPONSIVE DESIGN - PERFECTLY OPTIMIZED === */
 @media (max-width: 1200px) {
     .home {
         padding: 140px 60px 80px;
@@ -648,7 +647,7 @@ footer i.ti-heart {
 
 @media (max-width: 850px) {
     .menu-toggle {
-        display: flex;
+        display: inline-block;
     }
 
     .nav-menu {
