@@ -150,14 +150,14 @@ header {
 
 /* === HOME / LANDING SECTION (with big profile picture) === */
 .home {
-    position: relative;
+    position: static;
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     background: linear-gradient(145deg, #f0eff5 0%, #ffffff 100%);
     display: flex;
     align-items: center;
     padding: 140px 100px 80px;
-    gap: 60px;
+    gap: 100px;
     flex-wrap: wrap;
 }
 
@@ -187,7 +187,7 @@ header {
 .content {
     margin-top: 100px;
     flex: 2 1 400px;
-    max-width: 600px;
+    max-width: 1000px;
     color: #555;
 }
 
