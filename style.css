@@ -751,13 +751,18 @@ footer i.ti-heart {
         gap: 30px;
         padding: 120px 25px 60px;
     }
+    
+    .profile-image {
+        max-width: 300px;
+        aspect-ratio: 1/1;
+    }
 
     .btn-group a:nth-child(2) {
         margin-left: 15px;
     }
 
     .section-title {
-        text-align: center;
+        text-align: left;
     }
 
     .section-title::after {
@@ -910,14 +915,13 @@ footer i.ti-heart {
     }
 
     .contact-actions {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .contact-actions .btn {
-        display: flex;
         flex-direction: column;
-        gap: 15px;
         align-items: center;
     }
 
