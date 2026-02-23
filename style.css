@@ -173,6 +173,7 @@ header {
 .profile-image img {
     width: 100%;
     height: 100%;
+    aspect-ratio: 1/1;
     border-radius: 30px;
     border: 5px outset white;
     background: #d9c9ff;
@@ -411,7 +412,6 @@ header {
     transition: 0.3s;
     white-space: nowrap;
     text-decoration: none;
-    margin-left: 10px;
 }
 
 .btn:hover {
@@ -752,11 +752,6 @@ footer i.ti-heart {
         padding: 120px 25px 60px;
     }
 
-    .profile-image {
-        max-width: 300px;
-        aspect-ratio: 1/1;
-    }
-
     .btn-group a:nth-child(2) {
         margin-left: 15px;
     }
@@ -831,11 +826,6 @@ footer i.ti-heart {
     
     footer {
         padding: 20px;
-    }
-    
-    .profile-image {
-        max-width: 240px;
-        aspect-ratio: 1/1;
     }
     
     .content h2 {
@@ -971,11 +961,6 @@ footer i.ti-heart {
         max-width: 200px;
         margin-left: 0 !important;
         padding: 10px !important;
-    }
-    
-    .profile-image {
-        max-width: 200px;
-        aspect-ratio: 1/1;
     }
     
     .section-title {
