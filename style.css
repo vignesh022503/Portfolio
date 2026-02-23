@@ -906,13 +906,18 @@ footer i.ti-heart {
     }
 }
 
-/* Utility class for JavaScript menu toggle */
-.show-menu {
-    display: flex !important;
-}
-
 /* Fix for modal on very small screens */
 @media (max-width: 320px) {
     .modal-content {
         width: 98%;
         padding: 10px;
+    }
+    
+    .sample-gallery {
+        gap: 5px;
+    }
+    
+    .sample-gallery .sample img {
+        width: 80px !important;
+    }
+}
