@@ -621,7 +621,7 @@ footer i.ti-heart {
 
 @media (max-width: 850px) {
     .menu-toggle {
-        display: flex;
+        display: inline-block;;
     }
 
     .nav-menu {
@@ -660,9 +660,9 @@ footer i.ti-heart {
     }
 
     .btn-talk {
-        margin: 15px 0 5px;
+        margin: 15px 0;
         width: fit-content;
-        padding: 12px 45px;
+        padding: 10px 45px;
         font-size: 1rem;
     }
 
@@ -672,15 +672,16 @@ footer i.ti-heart {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .home {
         flex-direction: column;
         text-align: center;
     }
 
     .profile-image {
-        max-width: 280px;
-        margin: 0 auto;
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0;
     }
 
     .btn-group {
@@ -744,7 +745,8 @@ footer i.ti-heart {
 
     .contact-actions .btn-talk {
         width: 100%;
-        white-space: normal;
+        text-align: center;
+        padding: 10px 30px;
     }
 
     .resume-grid {
@@ -761,9 +763,10 @@ footer i.ti-heart {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
     .profile-image {
         max-width: 280px;
+        max-height: 280px;
     }
 
     .sample-gallery .sample img {
