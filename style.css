@@ -906,10 +906,14 @@ footer i.ti-heart {
         font-size: 0.9rem;
     }
     
-    .contact-info p {
-        font-size: 1.1rem;
+    .contact-main {
+        font-size: 1rem;
     }
-    
+
+    .contact-info p:last-child {
+        font-size: 0.95rem;
+    }
+
     .contact-actions {
         flex-direction: column;
         align-items: center;
