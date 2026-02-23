@@ -396,7 +396,7 @@ header {
 .contact-actions {
     flex: 2 1 300px;
     display: flex;          
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     align-items: center;
 }
