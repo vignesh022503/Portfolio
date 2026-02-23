@@ -920,7 +920,9 @@ footer i.ti-heart {
         width: 100%;
         max-width: 250px;
         margin: 0;
+        padding: 20px;
     }
+
     .modal-content {
         border-radius: 30px;
         padding: 15px 12px 25px;
