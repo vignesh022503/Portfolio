@@ -920,15 +920,20 @@ footer i.ti-heart {
     }
 
     .contact-actions {
-        display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
     }
 
     .contact-actions .btn {
-        width: 100%;
-        max-width: 250px
+        width: 85%;
+        max-width: 320px;
         margin: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
     }
 
     .modal-content {
