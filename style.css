@@ -603,10 +603,24 @@ footer i.ti-heart {
 }
 
 /* === RESPONSIVE DESIGN - PERFECTLY OPTIMIZED === */
-@media (max-width: 1000px) {
-    header {
+@media (max-width: 1200px) {
+    .home {
+        padding: 140px 60px 80px;
+    }
+    
+    .section {
+        padding: 90px 60px;
+    }
+    
+    footer {
+        padding: 20px 60px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
         padding: 12px 25px;
-        width: 75%;
+        width: 100%;
     }
 
     .home,
@@ -719,7 +733,7 @@ footer i.ti-heart {
     }
 
     .profile-image {
-        max-width: 280px;
+        max-width: 300px;
         margin: 0;
     }
 
