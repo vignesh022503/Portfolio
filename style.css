@@ -603,20 +603,33 @@ footer i.ti-heart {
 }
 
 /* === RESPONSIVE DESIGN - PERFECTLY OPTIMIZED === */
-@media (max-width: 1200px) {
-    .home {
-        padding: 140px 60px 80px;
+@media (max-width: 1000px) {
+    header {
+        padding: 12px 25px;
+        width: 75℅;
+    }
+
+    .home,
+    .section {
+        padding: 140px 40px 60px;
+    }
+
+    .resume-grid {
+        grid-template-columns: 1fr;
     }
     
-    .section {
-        padding: 90px 60px;
+    .content h2 {
+        font-size: 2.5em;
+    }
+    
+    .content h4 {
+        font-size: 1.6em;
     }
     
     footer {
-        padding: 20px 60px;
+        padding: 20px 40px;
     }
 }
-
 
 /* Utility class for JavaScript menu toggle */
 .show-menu {
