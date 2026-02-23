@@ -734,7 +734,8 @@ footer i.ti-heart {
     }
 
     .profile-image {
-        max-width: 280px;
+        max-width: 300px;
+        max-height: 300px;
         margin: 0;
     }
 
