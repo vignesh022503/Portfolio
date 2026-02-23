@@ -178,7 +178,7 @@ header {
 }
 
 .content {
-    margin-top: auto;
+    margin-top: 100px;
     flex: 2 1 400px;
     max-width: 1000px;
     color: #555;
