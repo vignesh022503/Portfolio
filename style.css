@@ -760,14 +760,14 @@ footer i.ti-heart {
     }
 
     .section-title {
-        font-size: 2rem;
+        text-align: left;
     }
-    
-    .section-title:after {
-        margin-left: auto;
-        margin-right: auto;
+
+    .section-title::after {
+        margin-left: 0;
+        margin-right: 0;
     }
-    
+}
     .content {
         text-align: center;
         margin-top: 50px;
@@ -785,7 +785,8 @@ footer i.ti-heart {
     
     .contact-container {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
+        align-items: flex-start;
     }
     
     .contact-actions {
