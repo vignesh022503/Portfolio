@@ -603,176 +603,22 @@ footer i.ti-heart {
 }
 
 /* === RESPONSIVE DESIGN - MEDIA QUERIES === */
-@media (max-width: 850px) {
-    .menu-toggle {
-        display: flex;
-    }
-
-    .nav-menu {
-        position: absolute;
-        top: 80px;
-        left: 20px;
-        right: 20px;
-        background: rgba(255, 255, 255, 0.95);
-        backdrop-filter: blur(20px);
-        border-radius: 40px;
-        padding: 30px 20px;
-        flex-direction: column;
-        box-shadow: 0 25px 40px rgba(0, 0, 0, 0.15);
-        border: 1px solid rgba(125, 42, 232, 0.2);
-        display: none;
-    }
-
-    .nav-menu.active {
-        display: flex;
-    }
-
-    .navigation {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .navigation a {
-        width: 100%;
-        text-align: center;
-        padding: 15px;
-        border-radius: 50px;
-        white-space: normal;
-        font-size: 1rem;
-    }
-
-    .btn-talk {
-        margin: 15px 0;
-        width: fit-content;
-        padding: 10px 45px;
-        font-size: 1rem;
-    }
-
-    header {
-        top: 15px;
-        padding: 12px 25px;
-    }
-}
-
 @media (max-width: 1000px) {
-    .home {
-        flex-direction: column;
-        text-align: center;
+    header {
+        padding: 12px 25px;
+        width: 95%;
     }
 
-    .profile-image {
-        max-width: 300px;
-        max-height: 300px;
-        margin: 0;
-    }
-
-    .btn-group {
-        justify-content: center;
-    }
-
-    .btn-group a:nth-child(2) {
-        margin-left: 0;
-    }
-
-    .section-title:after {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .content {
-        text-align: center;
-    }
-
-    .social-icons {
-        justify-content: center;
-    }
-
-    .contact-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .contact-actions {
-        justify-content: center;
-    }
-
-    .contact-info .social-icons {
-        justify-content: center;
-    }
-
-    .sample-gallery .sample img {
-        width: clamp(100px, 25vw, 150px);
-    }
-}
-
-@media (max-width: 800px) {
-    .btn-group {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .btn-group a {
-        width: 100%;
-        text-align: center;
-        white-space: normal;
-        padding: 12px 20px;
-        margin-left: 0 !important;
-    }
-
-    .skill-tags span {
-        white-space: normal;
-        text-align: center;
-        padding: 6px 12px;
-    }
-
-    .contact-actions .btn-talk {
-        width: 100%;
-        text-align: center;
-        padding: 10px 30px;
+    .home,
+    .section {
+        padding: 140px 80px 60px;
     }
 
     .resume-grid {
-        padding: 20px;
-        border-radius: 24px;
-    }
-
-    ul {
-        margin-left: 20px !important;
-    }
-
-    .sample-gallery .sample img {
-        width: clamp(80px, 30vw, 120px);
+        grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 360px) {
-    .profile-image {
-        max-width: 220px;
-        max-height: 220px;
-    }
-
-    .sample-gallery .sample img {
-        width: clamp(70px, 35vw, 100px);
-    }
-
-    .navigation a {
-        font-size: 0.9rem;
-        padding: 12px;
-    }
-
-    .btn-talk {
-        padding: 10px 30px;
-        font-size: 0.9rem;
-    }
-}
-
-/* Utility class for JavaScript menu toggle */
-.show-menu {
-    display: flex !important;
-}
-/* === RESPONSIVE DESIGN - MEDIA QUERIES === */
 @media (max-width: 850px) {
     .menu-toggle {
         display: flex;
@@ -876,7 +722,7 @@ footer i.ti-heart {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .btn-group {
         flex-direction: column;
         width: 100%;
@@ -917,7 +763,7 @@ footer i.ti-heart {
 
 @media (max-width: 360px) {
     .profile-image {
-        max-width: 220px;
+        max-width: 280px;
     }
 
     .sample-gallery .sample img {
