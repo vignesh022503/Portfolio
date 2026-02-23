@@ -675,9 +675,9 @@ footer i.ti-heart {
     }
 
     .btn-talk {
-        margin: 15px 0 5px;
+        margin: 15px 0;
         width: fit-content;
-        padding: 12px 45px;
+        padding: 10px 45px;
         font-size: 1rem;
     }
 
@@ -695,6 +695,7 @@ footer i.ti-heart {
 
     .profile-image {
         max-width: 300px;
+        max-height: 300px;
         margin: 0;
     }
 
@@ -737,7 +738,7 @@ footer i.ti-heart {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .btn-group {
         flex-direction: column;
         width: 100%;
@@ -779,6 +780,7 @@ footer i.ti-heart {
 @media (max-width: 360px) {
     .profile-image {
         max-width: 220px;
+        max-height: 220px;
     }
 
     .sample-gallery .sample img {
