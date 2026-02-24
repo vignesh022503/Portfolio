@@ -291,6 +291,11 @@ header {
     color: #7d2ae8;
 }
 
+.section-title p {
+    margin-bottom: 40px; 
+    font-size: 1.2rem;
+}
+
 .section-title:after {
     content: '';
     display: block;
@@ -754,6 +759,7 @@ footer i.ti-heart {
     
     .profile-image {
         max-width: 280px;
+        max-height: 280px
         margin: 0;
     }
 
@@ -835,6 +841,7 @@ footer i.ti-heart {
 
     .profile-image {
         max-width: 240px;
+        max-height: 240px
         margin: 0;
     }
     
@@ -916,7 +923,7 @@ footer i.ti-heart {
 
     .contact-container {
         flex-direction: column;
-        gap: 15px;
+        gap: 30px;
         align-items: center;
     }
     
@@ -989,12 +996,13 @@ footer i.ti-heart {
     }
     
     .profile-image {
-        max-width: 240px;
+        max-width: 200px;
+        max-height: 200px
         margin: 0;
     }
 
     .section-title {
-        font-size: 1.5rem;
+        font-size: 0.6rem;
     }
     
     .skill-tags {
