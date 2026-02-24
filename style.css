@@ -162,8 +162,8 @@ header {
 }
 
 .profile-image {
-    flex: 1 1 440px;
-    max-width: 440px;
+    flex: 1 1 420px;
+    max-width: 1000px;
     aspect-ratio: 1/1;
     border-radius: 30px;
     box-shadow: 0 30px 40px -20px rgba(93, 20, 190, 0.4);
