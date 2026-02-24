@@ -753,8 +753,8 @@ footer i.ti-heart {
     }
     
     .profile-image {
-        max-width: 300px;
-        aspect-ratio: 1/1;
+        max-width: 280px;
+        margin: 0;
     }
 
     .btn-group a:nth-child(2) {
@@ -835,7 +835,7 @@ footer i.ti-heart {
 
     .profile-image {
         max-width: 240px;
-        aspect-ratio: 1/1;
+        margin: 0;
     }
     
     .content h2 {
@@ -913,18 +913,21 @@ footer i.ti-heart {
         padding: 8px 20px;
         font-size: 0.9rem;
     }
-    
-    .contact-info p {
-        font-size: .75rem;
-        word-break: break-word
-    }
 
     .contact-container {
         flex-direction: column;
         gap: 15px;
         align-items: center;
     }
+    
+    .contact-info p {
+        margin-bottom: 10px;
+    }
 
+    .contact-info .social-icons {
+        margin-bottom: 0;
+    }
+    
     .contact-actions {
         flex-direction: column;
         align-items: center;
@@ -986,8 +989,8 @@ footer i.ti-heart {
     }
     
     .profile-image {
-        max-width: 200px;
-        aspect-ratio: 1/1;
+        max-width: 240px;
+        margin: 0;
     }
 
     .section-title {
