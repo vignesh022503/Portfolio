@@ -645,8 +645,9 @@ footer i.ti-heart {
 
 @media (max-width: 1000px) {
     header {
-        padding: 12px 25px;
+        padding: 12px 20px;
         width: 95%;
+        height: auto;
     }
 
     .home,
