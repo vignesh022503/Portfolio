@@ -759,7 +759,7 @@ footer i.ti-heart {
     
     .profile-image {
         max-width: 280px;
-        max-height: 280px
+        max-height: 280px;
         margin: 0;
     }
 
@@ -841,7 +841,7 @@ footer i.ti-heart {
 
     .profile-image {
         max-width: 240px;
-        max-height: 240px
+        max-height: 240px;
         margin: 0;
     }
     
@@ -997,16 +997,12 @@ footer i.ti-heart {
     
     .profile-image {
         max-width: 200px;
-        max-height: 200px
+        max-height: 200px;
         margin: 0;
     }
 
     .section-title {
         font-size: 1.5rem;
-    }
-    
-    .section-title p {
-        font-size: 0.75rem;
     }
     
     .skill-tags {
